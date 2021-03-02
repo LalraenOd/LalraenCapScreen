@@ -5,8 +5,25 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CapScreen"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="LalraenCapScreen" Height="450" Width="400">
     <Grid>
-        
+        <TabControl HorizontalAlignment="Left" Height="420" Margin="0,0,0,0" VerticalAlignment="Top" Width="390">
+            <TabItem Header="Hotkeys">
+                <Grid Background="#FFE5E5E5">
+                    <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Screenshot" VerticalAlignment="Top"/>
+                    <TextBox HorizontalAlignment="Left" Height="25" Margin="10,30,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextAlignment="Center"/>
+                    <Button Content="Select hotkey" HorizontalAlignment="Left" Margin="140,30,0,0" VerticalAlignment="Top" Width="120" Height="25"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="10,60,0,0" TextWrapping="Wrap" Text="Screen Record" VerticalAlignment="Top"/>
+                    <TextBox HorizontalAlignment="Left" Height="25" Margin="10,80,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextAlignment="Center"/>
+                    <Button Content="Select hotkey" HorizontalAlignment="Left" Margin="140,80,0,0" VerticalAlignment="Top" Width="120" Height="25"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="10,110,0,0" TextWrapping="Wrap" Text="FPS Control" VerticalAlignment="Top"/>
+                    <TextBox HorizontalAlignment="Left" Height="25" Margin="10,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextAlignment="Center"/>
+                    <Button Content="Select hotkey" HorizontalAlignment="Left" Margin="140,130,0,0" VerticalAlignment="Top" Width="120" Height="25"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Folders">
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
+        </TabControl>
     </Grid>
 </Window>
